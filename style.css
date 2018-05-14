@@ -1,0 +1,380 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	margin: 20px;
+	padding: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+h1, h2, h3 {
+	margin: 20px;
+	padding: 20px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+p {
+	line-height: 180%;
+}
+
+a {
+	color: #D1551F;
+}
+
+strong {
+	font-weight: 700;
+	color: #2A2A2A;
+}
+
+#wrapper {
+	overflow: hidden;
+	padding: 0px 0px 50px 0px;
+	background: #C00000 url(download1.png) repeat;
+}
+
+
+
+#copyright {
+	overflow: hidden;
+	padding: 50px 0px;
+}
+
+#copyright p {
+	text-align: center;
+	font-family: 'Abel', sans-serif;
+	font-size: 11pt;
+	color: #AD7253;
+}
+
+#copyright a {
+	color: #AD7253;
+}
+
+#copyright a:hover {
+	text-decoration: none;
+}
+
+
+
+#header {
+	overflow: hidden;
+	min-height: 205px;
+	position: relative;
+}
+
+#logo {
+	overflow: hidden;
+	padding: 30px 0 30px 0;
+}
+
+#logo h1 {
+	margin: 5px;
+}
+
+#logo h1 a {
+	display: block;
+	letter-spacing: -1px;
+	text-align: center;
+	text-decoration: none;
+	font-family: "Verdana";
+	font-size: 70pt;
+	font-weight: 200;
+	color: #009999;
+    border-color: #000000;
+}
+
+
+#menu-wrapper {
+	background: url(img06.png) top right repeat;
+}
+
+#menu {
+	height: 60px;
+}
+
+#menu ul {
+	text-align: center;
+}
+
+#menu li {
+	display: inline-block;
+	padding: 0px 20px;
+	line-height: 60px;
+}
+
+#menu a {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Abel', sans-serif;
+	font-size: 13pt;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item {
+	background: #00626B;
+	color: #FFFFFF;
+}
+
+#menu .current_page_item a {
+	color: #FFFFFF;
+}
+
+#menu a:hover {
+}
+
+
+#page-wrapper {
+	overflow: hidden;
+	padding: 30px 0px;
+	background: #FFFFFF;
+}
+
+#banner {
+	overflow: hidden;
+	padding: 0px 0px 30px 0px;
+}
+
+#banner a img {
+	display: block;
+	width: 100%;
+    height: auto;
+}
+
+
+#content {
+	padding: 0px 0px 0px 30px;
+}
+
+.twocolumn2 #content {
+	padding: 10px 30px 10px 10px;
+}
+
+.column img {
+	   border: 10px solid #93e2c8;
+        border-radius: 4px;
+}
+}
+
+#content section {
+	margin-bottom: 30px;
+	border-bottom: 1px solid #E6E6E6;
+}
+
+#content section:last-child {
+	border-bottom: 0;
+}
+
+.onecolumn #content section {
+	border-bottom: none;
+}
+
+#content h2 {
+	padding: 0px 0px 40px 0px;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	font-size: 30pt;
+	color: #2A2A2A;
+}
+
+#content img {
+	border: 10px solid #F3F3F3;
+}
+
+#content a img {
+}
+
+#content .post {
+	padding: 0px 0px 40px 0px;
+}
+
+#content .img-alignleft {
+	float: left;
+	margin-right: 40px;
+}
+
+
+
+
+#footer-content {
+	overflow: hidden;
+	padding: 50px 0px 0px 0px;
+	
+	color: #F3F1EE;
+}
+
+#footer-content h2 {
+	padding: 0px 0px 40px 0px;
+	text-transform: uppercase;
+	font-size: 20pt;
+	color: #FFF;
+}
+
+#footer-content .imgleft {
+	float: left;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 30px;
+	border: 5px solid #FFFFFF;
+}
+
+
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+        font-family: Verdana;
+		vertical-align: baseline;
+	}
+
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block;
+	}
+
+	body {
+		line-height: 1;
+	}
+
+	blockquote, q {
+		quotes: none;
+	}
+
+	blockquote:before, blockquote:after, q:before, q:after {
+		content: '';
+		content: none;
+	}
+
+	table {
+		border-collapse: collapse;
+		border-spacing: 0;
+	}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+    /*margin makes columns weird for some reason???*/
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    
+h2 {
+    font-size: 30px;
+    font-family: "Verdana";
+    color: #009999;
+}
+
+h5 {
+    text-align: center;
+    font-size: 20px;
+    font-family: "Verdana";
+}
+
+#mytable{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    border-spacing: 10px;
+}
+.col1{
+    width: 33%;
+    float: left;
+}
+.col2{
+    width: 66%;
+    float: right;
+}
+
+.col3{
+    width: 66%;
+    float: left;
+}
+.col4{
+    width: 33%;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+    font-size: 35px;
+    font-family: "Verdana";
+    color: #009999;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: "Verdana";
+    color: #009999;
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "Verdana";
+    color: #009999;
+    
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} 
+#mytable2, td, th {
+    border: 1px solid #009999;
+}
+
+#mytable2 {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    background-color: #93e2c8;
+    color: white;
+}
+
+
+td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #d9f9ef}
+
+* {
+    box-sizing: border-box;
+}
+
+
+.columnz {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 2800px;
+}
+
+.rowz:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+    
+
